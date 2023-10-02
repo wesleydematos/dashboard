@@ -36,6 +36,8 @@ ul, ol, li {
   --purple-1: #a87eff;
   --purple-2: #cfb7ff;
   --yellow-0: #ffcf00;
+  --red-0: #8D1C1C;
+  --text-gray: #737791;
   --gray-0: #e5e5e5;
   --gray-bg: #fafbfc;
   --white-bg: #ffffff;
