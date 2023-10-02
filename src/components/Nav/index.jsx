@@ -1,5 +1,5 @@
 import logo from "@/assets/dummy.png"
-import { StyledItems, StyledLogo, StyledNav } from "./style"
+import { StyledItems, StyledLogo, StyledNav, StyledSingOut } from "./style"
 import { Link } from "react-router-dom"
 import dash from "@/assets/dash.png"
 import leader from "@/assets/leader.png"
@@ -8,6 +8,7 @@ import products from "@/assets/products.png"
 import sales from "@/assets/sales.png"
 import message from "@/assets/message.png"
 import settings from "@/assets/settings.png"
+import signout from "@/assets/signout.png"
 
 function Nav() {
     return (
@@ -62,6 +63,10 @@ function Nav() {
             </Link>
             </li>
         </StyledItems>
+        <StyledSingOut>
+          <img src={signout} alt="botão de sair" />
+          <p>Sign Out</p>
+        </StyledSingOut>
       </StyledNav>
     )
   }
