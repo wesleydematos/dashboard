@@ -5,18 +5,21 @@ import UsersGraph from "@/components/UsersGraph"
 import TargetXReality from "@/components/TargetXReality"
 import CustomerSatisfaction from "@/components/CustomerSatisfaction"
 import TopSellers from "@/components/TopSellers"
+import { StyledDashboard } from "./style"
 
 function DashboardAdm() {
     return (
-      <>
+      <StyledDashboard>
         <Nav />
-        <Header />
-        <TodaySales />
-        <UsersGraph />
-        <TargetXReality />
-        <CustomerSatisfaction />
-        <TopSellers />
-      </>
+        <div>
+          <Header />
+          <TodaySales />
+          <UsersGraph />
+          <TargetXReality />
+          <CustomerSatisfaction />
+          <TopSellers />
+        </div>
+      </StyledDashboard>
     )
   }
   
