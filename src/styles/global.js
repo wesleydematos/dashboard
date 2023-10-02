@@ -10,10 +10,6 @@ export const GlobalStyle = createGlobalStyle`
   font-family: 'Poppins', sans-serif;
 }
 
-img {
-  max-width: 100%;
-}
-
 button {
   cursor: pointer;
 }
