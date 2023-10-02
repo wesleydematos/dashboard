@@ -22,43 +22,43 @@ function Nav() {
         <StyledItems>
           <li>
             <Link to="/">
-              <img src={dash} alt="Gráfico pizza" />
+              <img src={dash} alt="Pizza graph" />
               <p>Dashboard</p>
             </Link>
             </li>
           <li>
             <Link to="/leaderboard">
-              <img src={leader} alt="Gráfico" />
+              <img src={leader} alt="Graph" />
               <p>Leaderboard</p>
             </Link>
             </li>
           <li>
             <Link to="/order">
-              <img src={order} alt="Carrinho de compras" />
+              <img src={order} alt="Shopping cart" />
               <p>Order</p>
             </Link>
             </li>
           <li>
             <Link to="/products">
-              <img src={products} alt="Sacola de compras" />
+              <img src={products} alt="Shopping bag" />
               <p>Products</p>
             </Link>
             </li>
           <li>
             <Link to="/sales-report">
-              <img src={sales} alt="Gráfico" />
+              <img src={sales} alt="Graph" />
               <p>Sales Report</p>
             </Link>
             </li>
           <li>
             <Link to="/message">
-              <img src={message} alt="Caixa de mensagens" />
+              <img src={message} alt="Mailbox" />
               <p>Message</p>
             </Link>
             </li>
           <li>
             <Link to="/settings">
-              <img src={settings} alt="Engrenagem" />
+              <img src={settings} alt="Gear" />
               <p>Settings</p>
             </Link>
             </li>
