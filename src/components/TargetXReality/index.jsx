@@ -12,13 +12,13 @@ function TargetXReality() {
     datasets: [
       {
         label: "Reality Sales",
-        data: [5, 4, 3, 4, 6, 6, 6],
+        data: [1149, 1038, 948, 1223, 1448, 1448, 1448],
         backgroundColor: "#4ab58e",
         borderRadius: 3
       },
       {
         label: "Target Sales",
-        data: [7, 6, 8, 7, 9, 9, 9],
+        data: [1479, 1488, 1759, 1488, 1959, 1959, 1959],
         backgroundColor: "#ffcf00",
         borderRadius: 3
       },
@@ -52,23 +52,23 @@ function TargetXReality() {
     return (
       <StyledTargetXReality>
         <p>Target x Reality</p>
-        <div className="graph" style={{width: "598px", height: "157px"}}>
+        <div className="graph">
           <Bar
             data={data}
             options={options}
           />
         </div>
         <div className="content">
-          <div>
-            <div><img src={reality} alt="" /></div>
+          <div className="reality">
+            <div><img src={reality} alt="Reality"/></div>
             <div>
               <p>Reality Sales</p>
               <span>Global</span>
             </div>
             <p>8.823</p>
           </div>
-          <div>
-            <img src={target} alt="" />
+          <div className="target">
+            <img src={target} alt="Target"/>
             <div>
               <p>Target Sales</p>
               <span>Commercial</span>

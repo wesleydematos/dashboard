@@ -1,6 +1,10 @@
+import { StyledCustomerSatisfaction } from "./style"
+
 function CustomerSatisfaction() {
     return (
-      <p>Customer</p>
+      <StyledCustomerSatisfaction>
+        Customer
+      </StyledCustomerSatisfaction>
     )
   }
   
