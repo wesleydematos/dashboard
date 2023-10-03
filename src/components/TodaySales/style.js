@@ -7,7 +7,6 @@ export const StyledTodaySales = styled.div`
     height: 348px;
     width: 664px;
     padding: 20px;
-    margin: 20px;
     background-color: var(--white-bg);
     border-radius: 10px;
 

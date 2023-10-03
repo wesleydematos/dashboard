@@ -11,13 +11,15 @@ function DashboardAdm() {
     return (
       <StyledDashboard>
         <Nav />
-        <div>
+        <div className="divisor">
           <Header />
-          <TodaySales />
-          <UsersGraph />
-          <TargetXReality />
-          <CustomerSatisfaction />
-          <TopSellers />
+          <div className="wrapper">
+            <TodaySales />
+            <UsersGraph />
+            <TargetXReality />
+            <CustomerSatisfaction />
+            <TopSellers />
+          </div>
         </div>
       </StyledDashboard>
     )

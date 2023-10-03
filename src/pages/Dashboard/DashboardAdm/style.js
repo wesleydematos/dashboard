@@ -10,8 +10,17 @@ export const StyledDashboard = styled.main`
         font-size: 36px;
     }
 
-    > div{
+    .divisor{
         display: flex;
         flex-direction: column;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0;
+        width: calc(100vw - 345px);
+        gap: 20px;
     }
 `
