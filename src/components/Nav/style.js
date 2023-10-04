@@ -4,6 +4,7 @@ const StyledNav = styled.nav`
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
     background-color: #F0F0F0;
     min-height: 100vh;
     width: 345px;
