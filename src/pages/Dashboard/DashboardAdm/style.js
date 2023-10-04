@@ -21,6 +21,7 @@ export const StyledDashboard = styled.main`
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 120px;
         padding: 20px 0;
         width: calc(100vw - 345px);
         gap: 20px;
