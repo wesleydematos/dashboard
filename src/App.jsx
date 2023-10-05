@@ -1,9 +1,9 @@
-import DashboardAdm from "./pages/Dashboard/DashboardAdm"
+import Routes from "./routes.jsx"
 
 function App() {
   return (
     <>
-      <DashboardAdm />
+      <Routes />
     </>
   )
 }
