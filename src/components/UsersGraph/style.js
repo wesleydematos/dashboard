@@ -4,49 +4,48 @@ export const StyledUsersGraph = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 348px;
-    width: 420px;
-    padding: 20px;
+    height: 185px;
+    width: 350px;
+    padding: 10px;
     background-color: var(--white-bg);
     border-radius: 10px;
 
     .texts{
         p{
             font-weight: bold;
-            font-size: 20px;
+            font-size: 12px;
         }
 
         span{
             font-weight: 400;
-            font-size: 16px;
+            font-size: 10px;
         }
     }
 
     .content{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 15px;
 
         ul {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            gap: 10px;
+            gap: 5px;
 
             li {
                 display: flex;
                 align-items: center;
-                gap: 10px;
+                gap: 5px;
                 
                 div{
-                    width: 19px;
-                    height: 13px;
+                    width: 10px;
+                    height: 7px;
                     border-radius: 5px;
                 }
 
                 p{
                     color: var(--text-gray);
-                    font-size: 14px;
+                    font-size: 12px;
                 }
             }
 
@@ -65,7 +64,49 @@ export const StyledUsersGraph = styled.div`
     }
 
     .graph{
-        height: 185px;
-        width: 185px;
+        height: 130px;
+        width: 130px;
+    }
+
+    @media (min-width: 768px) {
+        height: 348px;
+        width: 420px;
+        padding: 20px;
+
+        .texts{
+            p{
+                font-size: 20px;
+            }
+
+            span{
+                font-size: 16px;
+            }
+        }
+
+        .content{
+            margin-bottom: 15px;
+
+            ul{
+                gap: 10px;
+
+                li{
+                    gap: 10px;
+
+                    div{
+                        width: 19px;
+                        height: 13px;
+                    }
+
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        
+        .graph{
+            height: 185px;
+            width: 185px;
+        }
     }
 `

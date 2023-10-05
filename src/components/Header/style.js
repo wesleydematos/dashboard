@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledHeader = styled.header`
     position: fixed;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
@@ -64,5 +64,9 @@ export const StyledHeader = styled.header`
             height: 16px;
             width: 12px;
         }
+    }
+
+    @media (min-width: 1485px) {
+        display: flex;
     }
 `

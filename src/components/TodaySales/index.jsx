@@ -19,7 +19,7 @@ function TodaySales() {
         </div>
         <div className="cards">
           <div>
-            <div>
+            <div  className="img">
               <img src={salesicon} alt="Sales icon" />
             </div>
             <h2>$1k</h2>
@@ -27,7 +27,7 @@ function TodaySales() {
             <span>+8% from yesterday</span>
           </div>
           <div>
-            <div>
+            <div  className="img">
               <img src={ordericon} alt="Order Icon" />
             </div>
             <h2>300</h2>
@@ -35,7 +35,7 @@ function TodaySales() {
             <span>+5% from yesterday</span>
           </div>
           <div>
-            <div>
+            <div className="img">
               <img src={discicon} alt="Disc Icon" />
             </div>
             <h2>5</h2>
