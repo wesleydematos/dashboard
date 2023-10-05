@@ -6,6 +6,12 @@ export const StyledDashboard = styled.main`
     max-width: 100vw;
     background-color: var(--gray-bg);
 
+    > :nth-child(1){
+        >:nth-child(2){
+            display: none;
+        }
+    }
+
     h1{
         font-weight: 600;
         font-size: 36px;
@@ -31,6 +37,16 @@ export const StyledDashboard = styled.main`
 
     @media (min-width: 1485px) {
         flex-direction: row;
+
+        > :nth-child(1){
+            >:nth-child(1){
+                display: none;
+            }
+            
+            >:nth-child(2){
+                display: flex;
+            }
+        }
 
         .divisor{
             margin-left: 345px;

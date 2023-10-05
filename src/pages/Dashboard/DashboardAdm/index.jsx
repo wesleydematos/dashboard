@@ -1,4 +1,5 @@
 import Nav from "@/components/Nav"
+import NavMobile from "../../../components/NavMobile"
 import Header from "@/components/Header"
 import TodaySales from "@/components/TodaySales"
 import UsersGraph from "@/components/UsersGraph"
@@ -10,7 +11,10 @@ import { StyledDashboard } from "./style"
 function DashboardAdm() {
     return (
       <StyledDashboard>
-        <Nav />
+        <div>
+          <NavMobile />
+          <Nav/>
+        </div>
         <div className="divisor">
           <Header />
           <div className="wrapper">
