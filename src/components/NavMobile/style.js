@@ -73,6 +73,7 @@ const StyledLogo = styled.div`
     .hamburguer{
         font-size: 30px;
         font-weight: bold;
+        background-color: #F0F0F0;
     }
 
     @media (min-width: 1485px) {
