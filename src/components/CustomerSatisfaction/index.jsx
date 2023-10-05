@@ -98,7 +98,7 @@ function CustomerSatisfaction() {
             options={options}
           />
         </div>
-        <div className="h2"/>
+        <div className="line"/>
         <div className="content">
           <div>
             <img src={lineblue} alt="stats"/>
