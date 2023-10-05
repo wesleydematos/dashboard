@@ -9,7 +9,6 @@ export const StyledTargetXReality = styled.div`
     padding: 10px;
     background-color: var(--white-bg);
     border-radius: 10px;
-    margin-top: 20px; //apaagr
 
     > p{
         font-weight: bold;
@@ -125,7 +124,7 @@ export const StyledTargetXReality = styled.div`
 
         .content{
             margin-left: 0;
-            
+
             > div{
                 height: 50px;
             }
