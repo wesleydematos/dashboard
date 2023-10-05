@@ -3,7 +3,6 @@ import styled from "styled-components"
 export const StyledDashboard = styled.main`
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     max-width: 100vw;
     background-color: var(--gray-bg);
 
@@ -19,9 +18,10 @@ export const StyledDashboard = styled.main`
 
     .wrapper{
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
         padding: 20px 0;
-        width: calc(100vw - 345px);
         gap: 20px;
     }
 
@@ -37,6 +37,8 @@ export const StyledDashboard = styled.main`
         }
 
         .wrapper{
+            flex-direction: row;
+            width: calc(100vw - 345px);
             justify-content: center;
             margin-top: 120px;
         }
